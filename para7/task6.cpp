@@ -16,5 +16,5 @@ int wavelen(enum color colorName) {
 
 int main() {
     using namespace std;
-    cout << wavelen(red) << endl;
+    cout << wavelen(violet) << endl;
 }

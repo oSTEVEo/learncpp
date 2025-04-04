@@ -5,7 +5,7 @@
 extern const int Len;
 
 void set_bank_account(bank_account &ba, char *name, double bal) {
-    strcpy(ba.fullname, name);
+    strncpy(ba.fullname, name, Len);
     ba.balance = bal;
     return;
 };

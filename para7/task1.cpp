@@ -7,8 +7,8 @@ float ctof(float celsius) {
 int main() {
     using namespace std;
     float tmp;
-    cout << "Введите температуру в цельсиях:";
+    cout << "Введите температуру в цельсиях: ";
     cin >> tmp;
-    cout << "Температура в фаренгейтах: " << ctof(tmp);
+    cout << "Температура в фаренгейтах: " << ctof(tmp) << endl;
     return 0;
 }

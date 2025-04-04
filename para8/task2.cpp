@@ -27,6 +27,7 @@ void barshow(CandyBar &bar) {
 int main() {
     CandyBar mybar;
     char name[100];
+    cout << "Введите название: ";
     cin >> name;
     barset(mybar, name);
     barshow(mybar);

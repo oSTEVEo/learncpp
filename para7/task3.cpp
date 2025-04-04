@@ -15,7 +15,7 @@ int main() {
     
     //cout << "Введите число: ";
     int num; num = 100000;
-    for (size_t i = 3; i < num; i++) {
+    for (size_t i = 3; i < num; i+=2) {
         if (is_prime(i, primenumbers, count)) {
             primenumbers[count] = i;
             count++;
@@ -26,7 +26,4 @@ int main() {
         cout << primenumbers[i] << " ";
     }*/
     cout << endl << count << endl;
-    
-
-    using namespace std;
 }

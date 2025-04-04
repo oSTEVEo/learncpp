@@ -17,5 +17,5 @@ int main() {
 
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     int* arr2 = sampling(arr, 10, square);
-    cout << arr2[1] << endl;
+    cout << arr2[2] << endl;
 }
